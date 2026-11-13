@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vulnerability Refactor Assistant</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Automated Code Vulnerability & Refactoring Assistant</h1>
+      <p>Upload code or connect a repository to analyze vulnerabilities and review generated patches.</p>
+      <form id="upload-form">
+        <input id="code-file" type="file" name="file" />
+        <button type="submit">Analyze</button>
+      </form>
+      <section id="results" aria-live="polite"></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

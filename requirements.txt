@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+peft
+bitsandbytes
+tree-sitter
+fastapi
+uvicorn
+docker
+chromadb
+faiss-cpu
+sentence-transformers
+langchain
+langchain-community
